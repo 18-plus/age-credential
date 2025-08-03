@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "session": {
+      "@id": "https://18plus.app/schema/session",
+      "@type": "https://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

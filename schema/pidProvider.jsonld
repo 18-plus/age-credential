@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "pidProvider": {
+      "@id": "https://18plus.app/schema/pidProvider",
+      "@type": "@id"
+    }
+  }
+}

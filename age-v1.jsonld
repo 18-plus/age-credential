@@ -1,20 +1,20 @@
 {
   "@context": {
     "@version": 1.1,
-    "evidenceProvider": {
-      "@id": "https://schema.18plus.app/evidenceProvider",
+    "pidProvider": {
+      "@id": "https://18plus.app/schema/pidProvider",
       "@type": "@id"
     },
-    "verificationMethod": {
-      "@id": "https://schema.18plus.app/verificationMethod",
+    "LoA": {
+      "@id": "https://18plus.app/schema/LoA",
       "@type": "https://www.w3.org/2001/XMLSchema#string"
     },
-    "assuranceLevel": {
-      "@id": "https://schema.18plus.app/assuranceLevel",
+    "verificationMethod": {
+      "@id": "https://18plus.app/schema/verificationMethod",
       "@type": "https://www.w3.org/2001/XMLSchema#string"
     },
     "session": {
-      "@id": "https://schema.18plus.app/session",
+      "@id": "https://18plus.app/schema/session",
       "@type": "https://www.w3.org/2001/XMLSchema#string"
     }
   }

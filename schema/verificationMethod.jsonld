@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "verificationMethod": {
+      "@id": "https://18plus.app/schema/verificationMethod",
+      "@type": "https://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "@context": {
+    "LoA": {
+      "@id": "https://18plus.app/schema/LoA",
+      "@type": "https://www.w3.org/2001/XMLSchema#string"
+    }
+  }
+}
