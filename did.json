@@ -1,0 +1,22 @@
+{
+  "@context": "https://www.w3.org/ns/did/v1",
+  "id": "did:web:18plus.app",
+  "verificationMethod": [
+    {
+      "id": "did:web:18plus.app#key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:18plus.app",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "hoQ2ncU-gkY3mOjBuj_Oec77n_SKdB0CFPG-WxrOJvk",
+        "y": "XwzgHgFbaKXPcypVmr3d1hP4C4lTITFz0bSWH4skbWc",
+        "alg": "ES256",
+        "use": "sig"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:18plus.app#key-1"
+  ]
+}
