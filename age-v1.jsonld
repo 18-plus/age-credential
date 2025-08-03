@@ -5,8 +5,8 @@
       "@id": "https://18plus.app/schema/pidProvider",
       "@type": "@id"
     },
-    "LoA": {
-      "@id": "https://18plus.app/schema/LoA",
+    "loa": {
+      "@id": "https://18plus.app/schema/loa",
       "@type": "https://www.w3.org/2001/XMLSchema#string"
     },
     "verificationMethod": {
