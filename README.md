@@ -94,7 +94,7 @@ The `vc` object follows the [W3C Verifiable Credentials Data Model v2](https://w
 | `pidProvider`          | string (DID)       |          | The PID Provider who performed the original verification. Omitted when regulatory frameworks (e.g. France’s ARCOM) prohibit issuer identification by relying parties. |
 | `verificationMethod`   | string             |          | The method used to perform the verification (`passport`, `eID`, `face_scan`, `credit_card`, etc.) |
 | `loa`                  | string             |          | Level of Assurance, in line with the eIDAS Regulation (`LoA1`, `LoA2`, or `LoA3`) |
-| `session`              | string (UUID/nonce)| ✔        | Session identifier for replay protection or binding issuance to an authentication flow |
+| `session`              | string (UUID/nonce)|          | Session identifier for replay protection or binding issuance to an authentication flow |
 
 Defined at: https://18plus.app/credentials/contexts/age-v1.jsonld
 
