@@ -1,0 +1,27 @@
+{
+  "iss": "did:web:18plus.app",
+  "sub": "did:key:z6MkwYz...X9yZr",
+  "nbf": 1752537600,
+  "exp": 1794073600,
+  "jti": "urn:uuid:6a1c8d7a-95c4-4d30-bf3f-d1b2b9e9f2f1",
+  "vc": {
+    "@context": [
+      "https://www.w3.org/ns/credentials/v2",
+      "https://ec.europa.eu/credentials/contexts/age-over-18-v1.jsonld",
+      "https://18plus.app/credentials/contexts/age-v1.jsonld"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "AgeOver18Credential"
+    ],
+    "credentialSubject": {
+      "id": "did:key:z6MkwYz...X9yZr",
+      "type": "Person",
+      "isOver18": true,
+      "pidProvider": "did:web:pid-provider.example",
+      "verificationMethod": "passport",
+      "loa": "LoA3",
+      "session": "9e4ef85a-716e-48a7-9d5c-c4c6e34dc790"
+    }
+  }
+}
